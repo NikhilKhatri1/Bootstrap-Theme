@@ -289,3 +289,22 @@ body {
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
     box-sizing: border-box;
 }
+
+.last {
+    margin-bottom: 8rem;
+}
+
+.fs-7 {
+    font-weight: 400;
+}
+
+@media screen and (max-width:450px) {
+    .last-col h4 {
+        font-size: 24px;
+    }
+
+    .last-col p {
+        font-weight: 600;
+        font-size: 20px;
+    }
+}
