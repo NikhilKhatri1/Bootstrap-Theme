@@ -176,6 +176,10 @@ body {
     text-transform: uppercase;
 }
 
+.nav-link {
+    margin-left: 5px;
+}
+
 .dropdown-header,
 .dropdown-text {
     color: #64748b;
@@ -290,12 +294,33 @@ body {
     box-sizing: border-box;
 }
 
+.card {
+    background-color: #f1f5f9;
+}
+
 .last {
     margin-bottom: 8rem;
 }
 
 .fs-7 {
     font-weight: 400;
+}
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+}
+
+.display-5 {
+    color: #000;
+}
+
+.position-relative {
+    width: 90%;
+}
+
+.bg-light {
+    background-color: #f1f5f9
 }
 
 @media screen and (max-width:450px) {
