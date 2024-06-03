@@ -309,8 +309,8 @@ body {
 .container {}
 
 .rocket {
-    width: 100%;
-    overflow: hidden;
+    width: 200px;
+    height: auto;
 }
 
 .display-5 {
